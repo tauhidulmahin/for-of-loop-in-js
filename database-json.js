@@ -33,6 +33,6 @@ const database = [   //array
 // console.log(database[2].supplier);
 
 
-for (const data of database) {
+for (let data of database) {
   console.log(data);
 }

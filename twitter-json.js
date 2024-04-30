@@ -65,10 +65,6 @@ let twitter = [   //array
 // console.log(twitter[0].user.time_zone);
 
 
-for (const twit of twitter) {
-  console.log(twit);
-}
-
-for (const twit of twitter[0].entities.hashtags[0].indices) {
+for (let twit of twitter) {
   console.log(twit);
 }

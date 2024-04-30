@@ -17,7 +17,7 @@ let countries = [
 // console.log(countries[9].code);
 // console.log(countries[2].name);
 
-for (const country of countries) {
+for (let country of countries) {
     console.log(country);
 }
 

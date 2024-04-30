@@ -1,4 +1,4 @@
-let word = [    //array
+let wordpress = [    //array
     {    //array[0]
         "id": 157538,
         "date": "2017-07-21T10:30:34",
@@ -36,12 +36,12 @@ let word = [    //array
     }
 ]
 
-// console.log(word[0].guid.rendered);
-// console.log(word[0].sticky);
-// console.log(word[0].categories[0]);
-// console.log(word[0].tags[1]);
+// console.log(wordpress[0].guid.rendered);
+// console.log(wordpress[0].sticky);
+// console.log(wordpress[0].categories[0]);
+// console.log(wordpress[0].tags[1]);
 
 
-for (const prop of word) {
+for (let prop of wordpress) {
     console.log(prop);
 }

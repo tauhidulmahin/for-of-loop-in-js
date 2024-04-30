@@ -38,6 +38,6 @@ let tests = [    //array
 // console.log(tests[2].last_name);
 // console.log(tests[3].gender);
 
-for (const test of tests) {
+for (let test of tests) {
   console.log(test);
 }
